@@ -4,8 +4,8 @@ body{
     background-color:lightblue;
     color:black;
     text-size:16px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
- 
+    font-family:'Arimo','Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
 }
 .inner{
     width:90%;
@@ -57,7 +57,7 @@ text-decoration: none;
     border: 2px solid white;
     border-radius: 5px;
     color:black;
-    
+
 }
 #navbar ul{
     padding:0;
@@ -88,7 +88,7 @@ text-decoration: none;
 }
 
 #main {
-    
+
     direction: rtl;
 
 }
@@ -123,7 +123,7 @@ img {
     #sidebar{
         width:80%
         float:none;
-    
+
     }
 }
 
