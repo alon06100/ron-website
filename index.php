@@ -4,16 +4,15 @@ $request = $_SERVER['REQUEST_URI'];
 
 switch ($request) {
     case '/' :
-        require __DIR__ . 'homesite.html';
+        require 'homesite.html';
         break;
-    case '' :
-        require __DIR__ . '/views/index.php';
+    case '/page2' :
+        require 'page2.html';
         break;
-    case '/about' :
-        require __DIR__ . '/views/about.php';
+    case '/homesite6' :
+        require 'homesite6.html';
         break;
-    default:
-        http_response_code(404);
-        require __DIR__ . '/views/404.php';
+    case '/homesite4' :
+        require 'homesite4.html';
         break;
 }
